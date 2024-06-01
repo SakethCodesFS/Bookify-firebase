@@ -1,0 +1,10 @@
+.form-container {
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .bg-light {
+    background-color: #f8f9fa!important;
+  }
+  

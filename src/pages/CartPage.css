@@ -1,0 +1,36 @@
+.cart-page {
+  padding: 20px;
+}
+
+.cart-item {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.cart-item h4 {
+  margin-bottom: 10px;
+}
+
+.cart-item p {
+  margin-bottom: 0;
+  color: #666;
+}
+
+.cart-item .form-control {
+  max-width: 80px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.remove-button {
+  margin-top: 10px;
+}
+
+.checkout-button {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+}

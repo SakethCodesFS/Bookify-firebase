@@ -1,0 +1,13 @@
+/* global.css */
+body {
+  background: linear-gradient(to bottom right, #ffafbd, #ffc3a0); /* Gradient from a soft pink to a light orange */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+  z-index: -1; /* Ensure the background stays behind other content */
+}

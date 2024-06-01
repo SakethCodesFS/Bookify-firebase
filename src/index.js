@@ -1,13 +1,24 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import { FirebaseProvider } from "./context/Firebase";
+import { BrowserRouter } from "react-router-dom";
+import { CartProvider } from "./context/Cart";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+
+      <FirebaseProvider>
+      <CartProvider>
+        <App />
+        </CartProvider>
+      </FirebaseProvider>
+      
+    </BrowserRouter>
   </React.StrictMode>
 );
 

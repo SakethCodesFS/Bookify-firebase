@@ -1,0 +1,14 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
